@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SavedCounterActivity"></activity>
+        <activity android:name=".counter.SavedCounterActivity"></activity>
+        <activity android:name=".todolist.RealmBasedToDoListActivity"></activity>
     </application>
 
 </manifest>

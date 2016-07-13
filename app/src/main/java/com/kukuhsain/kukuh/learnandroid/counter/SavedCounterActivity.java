@@ -1,4 +1,4 @@
-package com.kukuhsain.kukuh.learnandroid;
+package com.kukuhsain.kukuh.learnandroid.counter;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import com.kukuhsain.kukuh.learnandroid.R;
 
 /**
  * Created by kukuh on 29/06/16.
