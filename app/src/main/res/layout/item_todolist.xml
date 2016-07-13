@@ -6,16 +6,11 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/item_title"
+        android:id="@+id/todoitem_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="title"
-        android:textSize="14sp"/>
-
-    <TextView
-        android:id="@+id/item_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="description"/>
+        android:text="To-Do Item"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"/>
 
 </LinearLayout>
