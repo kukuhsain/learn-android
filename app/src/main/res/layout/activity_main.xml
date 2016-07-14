@@ -22,4 +22,10 @@
         android:text="Realm-based To Do List"
         android:onClick="goToToDoList"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook Login Integration"
+        android:onClick="goToFacebookLogin"/>
+
 </LinearLayout>

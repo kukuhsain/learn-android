@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.kukuhsain.kukuh.learnandroid.counter.SavedCounterActivity;
+import com.kukuhsain.kukuh.learnandroid.facebooklogin.FacebookLoginActivity;
 import com.kukuhsain.kukuh.learnandroid.todolist.RealmBasedToDoListActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void goToToDoList(View view) {
         Intent intent = new Intent(MainActivity.this, RealmBasedToDoListActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToFacebookLogin(View view) {
+        Intent intent = new Intent(MainActivity.this, FacebookLoginActivity.class);
         startActivity(intent);
     }
 }
