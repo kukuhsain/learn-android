@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.kukuhsain.kukuh.learnandroid.counter.SavedCounterActivity;
 import com.kukuhsain.kukuh.learnandroid.facebooklogin.FacebookLoginActivity;
+import com.kukuhsain.kukuh.learnandroid.googleplaceapi.GooglePlaceAutocomplete;
 import com.kukuhsain.kukuh.learnandroid.todolist.RealmBasedToDoListActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void goToFacebookLogin(View view) {
         Intent intent = new Intent(MainActivity.this, FacebookLoginActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToGooglePlaceAutocomplete(View view) {
+        Intent intent = new Intent(MainActivity.this, GooglePlaceAutocomplete.class);
         startActivity(intent);
     }
 }
