@@ -10,6 +10,8 @@ import com.kukuhsain.kukuh.learnandroid.facebooklogin.FacebookLoginActivity;
 import com.kukuhsain.kukuh.learnandroid.googleplaceapi.GooglePlaceAutocomplete;
 import com.kukuhsain.kukuh.learnandroid.todolist.RealmBasedToDoListActivity;
 
+import io.smooch.ui.ConversationActivity;
+
 public class MainActivity extends AppCompatActivity {
     private String TAG = "MainActivity";
 
@@ -37,5 +39,9 @@ public class MainActivity extends AppCompatActivity {
     public void goToGooglePlaceAutocomplete(View view) {
         Intent intent = new Intent(MainActivity.this, GooglePlaceAutocomplete.class);
         startActivity(intent);
+    }
+
+    public void goToSmoochIntegration(View view) {
+        ConversationActivity.show(this);
     }
 }
