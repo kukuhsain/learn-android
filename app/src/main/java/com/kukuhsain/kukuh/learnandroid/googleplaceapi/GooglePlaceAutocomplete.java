@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.places.Places;
 import com.kukuhsain.kukuh.learnandroid.R;
 
 /**
@@ -24,12 +25,12 @@ public class GooglePlaceAutocomplete extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_google_place_autocomplete);
 
-        /*mGoogleApiClient = new GoogleApiClient
+        mGoogleApiClient = new GoogleApiClient
                 .Builder(this)
                 .addApi(Places.GEO_DATA_API)
                 .addApi(Places.PLACE_DETECTION_API)
                 .enableAutoManage(this, this)
-                .build();*/
+                .build();
 
         Button btnAutocompleteSearch = (Button) findViewById(R.id.btn_autocomplete_search);
         btnAutocompleteSearch.setOnClickListener(new View.OnClickListener() {
